@@ -1,0 +1,26 @@
+[
+  {
+    "topic": "TRANSACTIONS_SOURCE_DATA_TOPIC",
+    "partition": 0,
+    "offset": 31,
+    "timestamp": 1715871986566,
+    "timestampType": "CREATE_TIME",
+    "headers": [],
+    "key": "\u0000\u0000\u0000\u0000\u0005\f874239",
+    "value": {
+      "TRANSACTION_ID": "874239",
+      "TRANSACTION_DATE": { "string": "2024-05-15" },
+      "ACCOUNT": { "string": "X216353123" },
+      "TRANSACTION_TYPE": { "string": "Payment" },
+      "AMOUNT": { "string": "100000" },
+      "DESCRIPTION": { "string": "Transfer to account C987654321" },
+      "table": { "string": "eka.EKA.TRANSACTIONS_SOURCE" },
+      "scn": { "string": "500865185" },
+      "op_type": { "string": "U" },
+      "op_ts": { "string": "1715897179000" },
+      "current_ts": { "string": "1715871981574" },
+      "row_id": { "string": "AAAtasAAHAAAALHAAF" },
+      "username": { "string": "HUYNB" }
+    }
+  }
+]

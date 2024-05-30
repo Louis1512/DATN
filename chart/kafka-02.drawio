@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2024-05-23T03:32:01.518Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="wQzkrr9W1HJQ4jxIKxFq" version="24.4.6" type="device">
+  <diagram name="Trang-1" id="3ydrOxbWelpumMZ3mkUY">
+    <mxGraphModel dx="1235" dy="636" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gndfHAmOpPEwRdtGuSoq-1" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;dashed=1;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="70" width="691" height="373" as="geometry" />
+        </mxCell>
+        <mxCell id="gndfHAmOpPEwRdtGuSoq-3" value="Confluent KSqlDB 01" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="gndfHAmOpPEwRdtGuSoq-1">
+          <mxGeometry x="305.5" y="275" width="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gndfHAmOpPEwRdtGuSoq-4" value="Confluent Schema Registry 01" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontStyle=1" vertex="1" parent="gndfHAmOpPEwRdtGuSoq-1">
+          <mxGeometry x="451.75" y="120" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gndfHAmOpPEwRdtGuSoq-5" value="Confluent Kafka Connnect 01" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="gndfHAmOpPEwRdtGuSoq-1">
+          <mxGeometry x="290.5" y="120" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gndfHAmOpPEwRdtGuSoq-6" value="Confluent Broker 01" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="gndfHAmOpPEwRdtGuSoq-1">
+          <mxGeometry x="139.25" y="260" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gndfHAmOpPEwRdtGuSoq-7" value="Confluent Control center 01" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="gndfHAmOpPEwRdtGuSoq-1">
+          <mxGeometry x="451.75" y="260" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gndfHAmOpPEwRdtGuSoq-10" value="Confluent Zookeeper 01" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="gndfHAmOpPEwRdtGuSoq-1">
+          <mxGeometry x="144.25" y="120" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gndfHAmOpPEwRdtGuSoq-13" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;CONFLUENT PLATFORM&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="gndfHAmOpPEwRdtGuSoq-1">
+          <mxGeometry x="161.75" y="346" width="367.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gndfHAmOpPEwRdtGuSoq-15" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;strokeWidth=3;" vertex="1" parent="gndfHAmOpPEwRdtGuSoq-1">
+          <mxGeometry x="161.75" y="63" width="45" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gndfHAmOpPEwRdtGuSoq-16" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;strokeWidth=3;" vertex="1" parent="gndfHAmOpPEwRdtGuSoq-1">
+          <mxGeometry x="161.75" y="203" width="45" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gndfHAmOpPEwRdtGuSoq-19" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;strokeWidth=3;" vertex="1" parent="gndfHAmOpPEwRdtGuSoq-1">
+          <mxGeometry x="323" y="63" width="45" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gndfHAmOpPEwRdtGuSoq-20" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;strokeWidth=3;" vertex="1" parent="gndfHAmOpPEwRdtGuSoq-1">
+          <mxGeometry x="484.25" y="63" width="45" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gndfHAmOpPEwRdtGuSoq-21" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;strokeWidth=3;" vertex="1" parent="gndfHAmOpPEwRdtGuSoq-1">
+          <mxGeometry x="323" y="203" width="45" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gndfHAmOpPEwRdtGuSoq-22" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;strokeWidth=3;" vertex="1" parent="gndfHAmOpPEwRdtGuSoq-1">
+          <mxGeometry x="484.25" y="203" width="45" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

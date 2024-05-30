@@ -1,0 +1,45 @@
+******** KỊCH BẢN THUYẾT TRÌNH:
+
+1. Confluent giải quyết : 
+	- Đáp ứng nhu cầu về dữ liệu thời gian thực
+	- Tách riêng hệ thống nguồn và hệ thống đích ---> có Lợi ích:
+	- Hỗ trợ xử lý nhiều định dạng dữ liệu từ nhiều nguồn -> Lợi ích: giúp các consumer, hệ thống sử dụng dữ liệu ko cần xử lý lại.
+	- Thống nhất về các giao thức  truyền tải dữ liệu : TCP - tranmisstion control protocol, HTTP - HyperText Transfer Protocol,..
+	
+
+
+
+
+
+
+2. Phân tích, thiết kế:
+	- Giải thích tại sao lại đưa ra số lượng component như vậy:
+	
+	
+	- Các component rời rạc cần phải liên kết lại mới hình thành 1 hệ thống được. Tại sao lại các component lại liên kết với nhau như vậy?
+	Vì dựa trên chức năng chúng được sinh ra. 
+	
+Phần 1:
+****lÝ DO CHỌN ĐỀ TÀI:
+1. Đối với 1 số ngành nghề (Kể tên ...) Show đáp ứng yêu cầu thời gian thực.
+	Các tổ chức có nhiều ..... việc xây dựng luồng .... Show trung gian 
+	VỚi nhiều nguồn dữ liệu thì việc có nhiều định dạng dữ liệu và các giao thức truyền tải dữ liệu.... Show xử lý...
+	
+	
+	=>> Confluent Platform có thế giúp doanh nghiệp giải quyết toàn bộ vấn đề trên. ==> Chọn 
+	
+*****Giới thiệu thành phần cơ bản:
+1. Trong Confluent Dữ liệu được đóng gói dưới dạng Message.
+2. Producer Là các ứng dụng gửi Message vào Topic.
+3. Consumer là các ứng dụng tiêu thụ Message từ Topic.
+4. Zookeeper nó là một dịch vụ điều phối của Apache Software.
+4. Kafka Cluster là 1 nhóm máy chủ được gọi là Kafka Broker hoạt đồng cụng nhau. Kafka broker đóng vai trò là cầu nối Producer và Consumer.
+3. Kafka Cluster tổ chức lưu Message theo danh mục Gọ là Kafka Topic
+4. Broker 
+
+
+
+Phần 2: phân tích thiết kế:
+Trong thực tế để xây dựng ..... Confluent Platform thì cần phải khảo sát thông tin hệ thống của doanh nghiệp: như
+....
+ Thì mới có thể đưa ra được mô hình hệ thống. Nên trong phạm vi đồ án thì em dựa vào các vấn đề mà doanh nghiệp gặp phải để đưa ra yêu cầu hệ thống cùng với đề xuất của hãng và kinh nghiệm làm việc của bản thân để đưa ra 1 mô hình phù hợp.

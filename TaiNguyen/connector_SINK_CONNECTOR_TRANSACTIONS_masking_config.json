@@ -1,0 +1,30 @@
+{
+  "name": "SINK_CONNECTOR_TRANSACTIONS",
+  "config": {
+    "connector.class": "io.confluent.connect.jdbc.JdbcSinkConnector",
+    "tasks.max": "1",
+    "key.converter": "io.confluent.connect.avro.AvroConverter",
+    "value.converter": "io.confluent.connect.avro.AvroConverter",
+    "transforms": "masking",
+    "topics": "TRANSACTIONS_SINK_DATA_TOPIC",
+    "transforms.masking.type": "org.apache.kafka.connect.transforms.MaskField$Value",
+    "transforms.masking.fields": "ACCOUNT",
+    "transforms.masking.replacement": "**********",
+    "connection.url": "jdbc:oracle:thin:@10.10.11.50:1521/eka",
+    "connection.user": "huynb",
+    "connection.password": "oracle_4U",
+    "dialect.name": "OracleDatabaseDialect",
+    "insert.mode": "upsert",
+    "table.name.format": "LONGCV.TRANSACTIONS_SINK",
+    "pk.mode": "record_value",
+    "pk.fields": "TRANSACTION_ID",
+    "auto.create": "true",
+    "trim.sensitive.log": "false",
+    "principal.service.name": "denodo",
+    "principal.service.password": "vertica_4U",
+    "value.converter.schema.registry.url": "http://10.10.12.241:8081",
+    "key.converter.schemas.enable": "true",
+    "value.converter.schemas.enable": "true",
+    "key.converter.schema.registry.url": "http://10.10.12.241:8081"
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "topic": "TRANSACTIONS_SINK_DATA_TOPIC",
+    "partition": 0,
+    "offset": 31,
+    "timestamp": 1715871986566,
+    "timestampType": "CREATE_TIME",
+    "headers": [],
+    "key": "\u0000\u0000\u0000\u0000\u0005\f874239",
+    "value": {
+      "TRANSACTION_ID": { "string": "874239" },
+      "TRANSACTION_DATE": { "string": "2024-05-15" },
+      "ACCOUNT": { "string": "X216353123" },
+      "TRANSACTION_TYPE": { "string": "Payment" },
+      "AMOUNT": { "string": "100000" },
+      "DESCRIPTION": { "string": "Transfer to account C987654321" },
+      "OP_TYPE": { "string": "U" },
+      "OP_TS": { "string": "2024-05-16 22:06:19.000" },
+      "CURRENT_TS": { "string": "2024-05-16 22:06:21.574" }
+    }
+  }
+]
